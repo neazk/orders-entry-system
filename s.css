@@ -1,0 +1,66 @@
+.nlinks a:link, .nlinks a:visited {
+    background-color: darkgreen;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.nlinks a:hover, .nlinks a:active {
+    background-color: green;
+    color: white;
+}
+
+.clinks a:link,.clinks a:visited {
+    color: blue;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.clinks a:hover, .clinks a:active {
+    color: blue;
+}
+
+textarea{
+align-items: right;
+}
+
+th, td {
+    padding: 7px;
+    border-bottom: 1px solid grey;    
+}
+
+table {
+    border-spacing: 0px;
+}
+
+button{
+    cursor: pointer;
+    padding: 5px 20px;
+    border-radius: 4px;
+    background-color: white;
+}
+button:hover{
+    color: white;
+    background-color: green;
+}
+.b1{
+    background-color: white; 
+    color: black; 
+    border: 2px solid #ff1100;
+}
+.b1:hover{
+    background-color: #ff1100;
+    color: white;
+}
+
+.alert {
+    padding: 8px;
+    background-color: #f44336;
+    color: white;
+    width: 150px;
+    text-align: center;
+    margin: 5px;
+  }
