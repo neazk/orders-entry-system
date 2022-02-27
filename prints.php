@@ -5,21 +5,21 @@ require_once('query.php');
 $header = array(
     'odd' => array(
         'L' => array(
-            'content' => 'السلطان',
+            'content' => '',
             'font-size' => 10,
             'font-style' => 'B',
             'font-family' => 'serif',
             'color' => '#000000'
         ),
         'C' => array(
-            'content' => '07700001736',
+            'content' => 'المركز العالمي للمنتجات الاوربية',
             'font-size' => 10,
             'font-style' => 'r',
             'font-family' => 'serif',
             'color' => '#000000'
         ),
         'R' => array(
-            'content' => '',
+            'content' => '07734395276',
             'font-size' => 10,
             'font-style' => 'B',
             'font-family' => 'serif',
@@ -105,11 +105,9 @@ foreach ($_POST['ck'] as $k => $v) {
     <span>' . $order['notes'] . '</span><br>';
     $html .= '</div><hr>';
 
-
-
     $html .= '
-    <table border="1" cellspacing="0" cellpadding="4" style="width: 100%">
-    <tr style="background-color: #7F8C8D">
+        <table border="1" cellspacing="0" cellpadding="4" style="width: 100%">
+        <tr style="background-color: #7F8C8D">
             <th></th>
             <th>اسم المنتج</th>
             <th>العدد</th>
@@ -139,19 +137,13 @@ foreach ($_POST['ck'] as $k => $v) {
 
     $html .= '
         <div>
-        توضيح:
-        <br>
-        1-غير مسؤلين عن سؤء استخدام المنتج
-        <br>
-        2-يعتبر هذا الوصل ضمان حق يرجى الاحتفاظ به
-        <br>
-        3-ضمان المنتج شهر كامل
+        توضيح: ضمان سنة كاملة بالملف من تاريخ الشراء
         </div>
         <br>
         <br>
         <br>
         <br>
-        <br><div style="text-align:center">العنوان: بغداد-الدورة-الصحة</div></body>';
+        <br><div style="text-align:center">زيونة شارع الربيعي . مقابل بلاك</div></body>';
     $mpdf->WriteHTML($html);
 }
 
