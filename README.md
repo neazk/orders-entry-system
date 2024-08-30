@@ -1,1 +1,1 @@
-old app for bulk data entry from Whatsapp massages and store them in database and generate PDF 
+old app for bulk data entry from Whatsapp massages and store them in database and generate PDF on demand 
